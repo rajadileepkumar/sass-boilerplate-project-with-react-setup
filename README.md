@@ -1,3 +1,4 @@
+## Sass configuration
 The basic sass configuration with some default mixins added
 
 
