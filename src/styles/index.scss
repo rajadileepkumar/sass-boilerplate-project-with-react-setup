@@ -1,0 +1,21 @@
+@import './layout/module.scss';
+@import './config/mixin.scss';
+@import './layout/fonts.scss';
+@import './layout/color.scss';
+@import './layout/text.scss';
+@import './layout/button.scss';
+@import './layout/accessibility.scss';
+@import './global.scss';
+
+body{
+    @include background-gradient(#ff00004f, #c61752, 'horizontal');
+    height: 100vh;
+    font-family: 'Montserrat-Medium';
+}
+#root{
+    @include center(both)
+}
+h1{
+    @include font-size(14px);
+    @include padding(10px,null,20px,null)
+}
